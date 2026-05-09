@@ -6,7 +6,7 @@ load_dotenv()
 # LLM
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-LLM_MODEL = "mistralai/mistral-7b-instruct"
+LLM_MODEL = "mistralai/mistral-small-3.1-24b-instruct:free"
 
 # Embeddings
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
